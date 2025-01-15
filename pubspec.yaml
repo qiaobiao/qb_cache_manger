@@ -1,5 +1,5 @@
 name: qb_cache_manger
-description: A new Flutter project.
+description: A Flutter package designed to manage cache data efficiently, providing easy-to-use methods for saving, retrieving, and removing cached information.
 version: 0.0.1
 homepage:
 

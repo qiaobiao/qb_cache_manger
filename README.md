@@ -1,6 +1,6 @@
 # qb_cache_manger
 
-A new Flutter project.
+1. 仅IOS缓存Flutter插件.
 
 ## Getting Started
 
@@ -13,3 +13,11 @@ For help getting started with Flutter development, view the
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+
+### API使用
+
+ 1:QbCacheManger.saveCacheData("test", "11111");
+ 2:QbCacheManger.removeCacheData("test");
+ 3:QbCacheManger.getCacheData("test").then((value) => {
+      print("value---$value"),
+    });
